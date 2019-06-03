@@ -214,9 +214,9 @@ call <sid>hi("Conceal", s:cdFront, s:cdBack, 'none', {})
 
 call <sid>hi('Ignore', s:cdFront, {}, 'none', {})
 
-call <sid>hi('Error', s:cdRed, s:cdBack, 'undercurl', s:cdRed)
+call <sid>hi('Error', s:cdRed, s:cdBack, 'standout', s:cdRed)
 
-call <sid>hi('Todo', s:cdNone, s:cdLeftMid, 'none', {})
+call <sid>hi('Todo', s:cdYellow, s:cdBack, 'italic', {})
 
 " HTML:
 call <sid>hi('htmlTag', s:cdGray, {}, 'none', {})
